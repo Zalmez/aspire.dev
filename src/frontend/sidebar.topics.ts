@@ -828,7 +828,7 @@ export const sidebarTopics: StarlightSidebarTopicsUserConfig = [
               { label: 'Local Azure provisioning', slug: 'integrations/cloud/azure/local-provisioning' },
               { label: 'Configure Azure Container Apps', slug: 'integrations/cloud/azure/configure-container-apps' },
               {
-                label: 'Azure AI', items: [
+                label: 'Azure AI', collapsed: true, items: [
                   { label: 'AI compatibility matrix', slug: 'integrations/cloud/azure/ai-compatibility-matrix' },
                   { label: 'Azure AI Foundry', slug: 'integrations/cloud/azure/azure-ai-foundry' },
                   { label: 'Azure AI Inference', slug: 'integrations/cloud/azure/azure-ai-inference' },
